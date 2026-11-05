@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('Streamlit Output Widgets!')
 
-st.markdown("## Text Output")
+st.markdown("## Text Output") # markdown is a shortcut for html and can be used to control a lot of how the code works 
 st.text("Plain text.\nObeys newlines.")
 
 st.markdown("## Markdown Output")

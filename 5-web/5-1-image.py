@@ -9,7 +9,7 @@ def download_image(url):
     return filename
 
 def run(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
     site = "https://ist256.com/fall2023/"
